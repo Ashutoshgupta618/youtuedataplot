@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from googleapiclient.discovery import build
 
 
-API_KEY = "AIzaSyD8sRilz0vPFcsARUqqa0D-wWIWsKA9vOs"
 
 def get_channel_details(channel_name):
     youtube = build('youtube', 'v3', developerKey=API_KEY)
